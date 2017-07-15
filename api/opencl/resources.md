@@ -4,7 +4,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 
 ## Khronos Resources
 * [Homepage](https://www.khronos.org/opencl)
-* [OpenCL Registry](https://www.khronos.org/registry/cl/)
+* [OpenCL Registry](https://www.khronos.org/registry/OpenCL/)
 * [The OpenCL C++ compiler](https://github.com/KhronosGroup/SPIR/tree/spirv-1.1) reference implementation
 * [The OpenCL C++ standard library](https://github.com/KhronosGroup/libclcxx) reference implementation
 * [SPIR-V Tools project](https://github.com/KhronosGroup/SPIRV-Tools) including an assembler, binary module parser, disassembler, and validator for SPIR-V
@@ -46,6 +46,7 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [Anjuta Project Wizards](http://gpumodeling.blogspot.com/2011/06/anjuta-project-wizards-for-amd-nvidia.html) - For AMD, NVidia and Intel OpenCL SDK
 *   [Aparapi](https://code.google.com/p/aparapi/) - API for data parallel Java. Allows suitable code to be executed on GPU via OpenCL.
 *   [ArrayFire math library](http://arrayfire.com/) - ArrayFire is a fast, hardware-neutral software library for GPU computing with an easy-to-use API.
+*   [BabelStream](https://github.com/UoB-HPC/BabelStream) - memory bandwidth benchmark for parallel architectures
 *   [Bolt](https://github.com/HSA-Libraries/Bolt/releases/tag/v1.1GA) - Bolt C++ Template Library
 *   [Bolt C++ Template Library](http://developer.amd.com/tools-and-sdks/opencl-zone/bolt-c-template-library/) - Bolt is an STL compatible library of high level constructs for creating accelerated data parallel applications.
 *   [Bullet Physics](http://bulletphysics.org/wordpress/?p=381) - Bullet Physic OpenCL accelerated Rigid Body Pipeline 
@@ -74,7 +75,6 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [GMAC](http://www.multicorewareinc.com/gmac.html) - Global Memory for Accelerators
 *   [Go-OpenCL](https://github.com/samuel/go-opencl/) - Go OpenCL bindings
 *   [GoCL](https://github.com/elima/gocl) - GLib/GObject wrapper for OpenCL
-*   [GPU-STREAM](https://github.com/UoB-HPC/GPU-STREAM)
 *   [gpumatrix](https://github.com/rudaoshi/gpumatrix) - A matrix and array library on GPU with interface compatible with Eigen.
 *   [GPUVerify](http://multicore.doc.ic.ac.uk/tools/GPUVerify/) - GPUVerify is a tool for formal analysis of GPU kernels written in OpenCL
 *   [Harlan](https://github.com/eholk/harlan) - Harlan: A Scheme-Based GPU Programming Language
@@ -91,8 +91,10 @@ We believe the true usefulness of OpenCL goes beyond the spec itself; it is an e
 *   [MainConcept SDKs using OpenCL](http://www.mainconcept.com/products/sdks/) - The MainConcept GPU Acceleration SDK supports several GPU computing standards for parallel processing supported by MainConcept – NVIDIA's CUDA and AMD's OpenCL. In addition, there is the H.264/AVC Encoder for Intel Quick Sync Video that integrates Intel® Media SDK into the MainConcept API providing easy access to dedicated video processing in 3rd Generation Intel Core Processors.
 *   [ManoCL](http://code.google.com/p/manocl/) - Not active project for .NET bindings.
 *   [M_ Platform](http://www.fixstars.com/en/products/m-cubed/) - Parallel Framework and Primitive Libraries
+*   [Nengo](https://pypi.python.org/pypi/nengo_ocl/1.2.0) - OpenCL-backed neural simulations using the Neural Engineering Framework
 *   [NOpenCL](https://github.com/tunnelvisionlabs/NOpenCL): Easy-to-use .NET wrapper for OpenCL with abstraction.
 *   [OCL-Library](https://github.com/dmed256/OCL-Library) - Simplified OpenCL in C++
+*   [Oclgrind](https://github.com/jrprice/Oclgrind) - OpenCL device simulator, debugger, and dynamic analysis platform
 *   [Open Fortran Parser](http://fortran-parser.sourceforge.net/) - ANTLR-based parsing tools that support the Fortran 2008 standard
 *   [OpenACC to OpenCL Compiler](https://github.com/tristanvdb/OpenACC-to-OpenCL-Compiler) - Rose based  OpenACC to OpenCL Compiler.
 *   [OpenCL data parallel primitives library](http://code.google.com/p/clpp/) - clpp is an OpenCL Data Parallel Primitives Library.
